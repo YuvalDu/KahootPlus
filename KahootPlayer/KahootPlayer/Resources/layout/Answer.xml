@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Enter Your Answer"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_x="120px"  
+        android:id="@+id/txtdisplay" />
+    <Button
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:background="#20b820"
+        android:layout_x="5px"  
+        android:layout_y="150px"
+        android:id="@+id/btnGreen0" />
+    <Button
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:background="#db0e0e"
+        android:layout_x="5px"  
+        android:layout_y="460px"
+        android:id="@+id/btnRed1" />
+    <Button
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:background="#FFFF00"
+        android:layout_x="390px"  
+        android:layout_y="150px"
+        android:id="@+id/btnYellow2" />
+    <Button
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:background="#0000FF"
+        android:layout_x="390px"  
+        android:layout_y="460px"
+        android:id="@+id/btnBlue3" />
+</AbsoluteLayout>

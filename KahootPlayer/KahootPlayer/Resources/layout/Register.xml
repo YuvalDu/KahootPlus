@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Create New Account"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txtdisplay" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRegUname"
+        android:hint="Username"
+        android:textColorHint="#000"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+       />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRegPword"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:password="true"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+       />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRegPwordRep"
+        android:textColorHint="#000"
+        android:layout_gravity="center"
+        android:hint="Repeat Password"
+        android:password="true"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnRegReg" />
+</LinearLayout>
